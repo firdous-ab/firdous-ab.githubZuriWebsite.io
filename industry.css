@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: Averta, sans-serif;
+}
+
+.css-header {
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1100;
+  top: 0px;
+  left: auto;
+  right: 0px;
+  color: white;
+}
+
+.flex-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
