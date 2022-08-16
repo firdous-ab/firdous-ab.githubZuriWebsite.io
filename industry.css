@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
   font-family: Averta, sans-serif;
+}
+
+body {
   background-color: rgb(255, 253, 245);
 }
 
@@ -26,7 +29,7 @@
 }
 
 .thumbs {
-  background-color: red;
+  background-color: #e7332b;
   border-radius: 100px;
   /* margin-left: -30px; */
   padding: 10px;
@@ -37,7 +40,7 @@
 
 .enroll-btn {
   display: flex;
-  background-color: red;
+  background-color: #e7332b;
   border-radius: 71px;
   box-shadow: none;
   /* color: white; */
@@ -98,7 +101,7 @@
   letter-spacing: 0.00938em;
   margin: 0px;
   text-align: center;
-  color: red;
+  color: #e7332b;
 }
 
 .Gain-K {
@@ -123,7 +126,7 @@
 }
 
 .enroll-btn2 {
-  background-color: red;
+  background-color: #e7332b;
   border-radius: 71px;
   box-shadow: none;
   color: white;
@@ -152,11 +155,12 @@
   width: 90%;
   margin: auto;
   max-width: 1440px;
-  padding: 49px;
+  padding-top: 49px;
   justify-content: space-between;
 }
 
 .Second-row {
+  justify-content: space-between;
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
@@ -205,4 +209,501 @@
 .logo-img {
   mix-blend-mode: darken;
   /* width: 55%; */
+}
+
+.horizontal-line {
+  margin: 0;
+  flex-shrink: 0;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.root3 {
+  width: 89%;
+  max-width: 1440px;
+  padding-top: 49px;
+  margin: auto;
+}
+
+.arrow1 {
+  width: 15%;
+  height: 15%;
+}
+
+.WhyZTxStar-cont {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.whyZT-note {
+  flex-basis: 58.3333%;
+}
+
+.whyZT {
+  color: #e7332b;
+  font: normal normal 400 24px/130% Arial, Helvetica, sans-serif;
+}
+
+.whyZT-paragraph {
+  color: #1b1a20;
+  font: normal normal 700 40px/130% Arial, Helvetica, sans-serif;
+}
+
+.ZT-text {
+  margin: 0;
+  letter-spacing: 00.00938em;
+}
+
+.star-cont {
+  display: flex;
+  align-items: center;
+}
+
+.star-box {
+  display: flex;
+  justify-content: right;
+  margin-top: 95px;
+}
+
+.star-img {
+  width: 65.0847%;
+  height: 64.9484%;
+  mix-blend-mode: darken;
+}
+
+.grid-background {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 244, 240, 0),
+    #fff4f0 17.19%,
+    #fff4f0 84.37%,
+    rgba(255, 244, 240, 0)
+  );
+}
+
+.grid-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.root4 {
+  margin: auto;
+  width: 92%;
+  padding-top: 49px;
+  max-width: 1440px;
+}
+
+.css-grid {
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+/* GRID 01 */
+.box-01 {
+  box-sizing: border-box;
+  background: #e7332b;
+  border-radius: 18px;
+  box-shadow: 0 11px 22px rgba(231, 51, 43, 0.1);
+  padding: 58px 48px 93px 50px;
+  cursor: pointer;
+}
+
+.box-01:hover {
+  transform: translateY(-17px);
+  transition-duration: 0.5s;
+}
+
+.box01-image {
+  border-top-right-radius: 18px;
+  background: inherit;
+  display: flex;
+  float: right;
+  margin-right: -49px;
+  margin-top: -58px;
+  width: 42%;
+}
+/* APPLIES TO ALL PARAGRAGH TAGS IN THE GRIDS */
+.css-para01 {
+  margin: 0px;
+  letter-spacing: 00.00938em;
+}
+
+.num-01 {
+  background: inherit;
+  color: white;
+  font: normal normal 700 60px/130% Arial, Helvetica, sans-serif;
+}
+
+.remote-01 {
+  background: inherit;
+  color: white;
+  font: normal normal 500 36px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 36px;
+  padding-top: 32px;
+}
+
+.Note-01 {
+  background: inherit;
+  color: white;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+/* GRID 02 */
+.box-02 {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 11px 22px rgb(231, 51, 43, 10%);
+  padding: 58px 48px 93px 50px;
+  cursor: pointer;
+}
+
+.box-02:hover {
+  transform: translateY(-17px);
+  transition-duration: 0.5s;
+}
+
+.num-02 {
+  background: inherit;
+  color: black;
+  font: normal normal 700 60px/130% Arial, Helvetica, sans-serif;
+}
+
+.Hands-on-02 {
+  background: inherit;
+  color: black;
+  font: normal normal 500 36px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 36px;
+  padding-top: 32px;
+}
+
+.Note-02 {
+  background: inherit;
+  color: black;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+/* GRID 03 */
+.num-03 {
+  background: inherit;
+  color: black;
+  font: normal normal 700 60px/130% Arial, Helvetica, sans-serif;
+}
+
+.collaborative-03 {
+  background: inherit;
+  color: black;
+  font: normal normal 500 36px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 36px;
+  padding-top: 32px;
+}
+
+.Note-03 {
+  background: inherit;
+  color: black;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+/* GRID 04 */
+.num-04 {
+  background: inherit;
+  color: black;
+  font: normal normal 700 60px/130% Arial, Helvetica, sans-serif;
+}
+
+.RealLife-04 {
+  background: inherit;
+  color: black;
+  font: normal normal 500 36px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 36px;
+  padding-top: 32px;
+}
+
+.Note-04 {
+  background: inherit;
+  color: black;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+/* GRID 05 */
+.num-05 {
+  background: inherit;
+  color: black;
+  font: normal normal 700 60px/130% Arial, Helvetica, sans-serif;
+}
+
+.Beginner-05 {
+  background: inherit;
+  color: black;
+  font: normal normal 500 36px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 36px;
+  padding-top: 32px;
+}
+
+.Note-05 {
+  background: inherit;
+  color: black;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+/* GRID 06 */
+.num-06 {
+  background: inherit;
+  color: black;
+  font: normal normal 700 60px/130% Arial, Helvetica, sans-serif;
+}
+
+.Mentorship-06 {
+  background: inherit;
+  color: black;
+  font: normal normal 500 36px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 36px;
+  padding-top: 32px;
+}
+
+.Note-06 {
+  background: inherit;
+  color: black;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+}
+
+.section-4 {
+  background-color: rgb(231, 51, 43);
+  margin-top: 149px;
+}
+
+.flex-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -24px;
+}
+
+.root3 {
+  margin: auto;
+  padding-top: 49px;
+  width: 89%;
+}
+
+.left-flex-cont {
+  flex-basis: 41.91%;
+}
+
+.section4-wire {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 128px;
+}
+
+.leftCont-text {
+  margin: 0;
+  letter-spacing: 00.00938em;
+}
+
+.small-text {
+  color: white;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+}
+
+.large-text {
+  color: white;
+  font: normal normal 700 40px/130% Arial, Helvetica, sans-serif;
+}
+
+.large2-text {
+  color: white;
+  font: normal normal 400 18px/130% Arial, Helvetica, sans-serif;
+  width: 75%;
+  padding-top: 42px;
+}
+
+.css-btn4 {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  letter-spacing: 00.02857em;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgb(0 0 0 0.2) 0px 3px 1px -2px, rgb(0 0 0 0.14) 0px 2px 2px 0px,
+    rgb(0 0 0 0.12) 0px 1px 5px 0px;
+}
+
+.Button-sect4 {
+  background: white;
+  border-radius: 71px;
+  color: #e7332b;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  padding: 8px 28px;
+  text-transform: none;
+}
+
+.mid-btn {
+  font: normal normal 400 18px/24px Arial, Helvetica, sans-serif;
+}
+
+.button-grid {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -24px;
+  width: calc(100% + 24px);
+  margin-left: -24px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+
+.css-btnG {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.Button-sect42 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 79px;
+  box-sizing: border-box;
+  color: white;
+  cursor: no-drop;
+  display: flex;
+  font-size: 16px;
+  justify-content: left;
+  width: 235px;
+  padding: 11px 48px 11px 0px;
+  text-transform: none;
+}
+
+.css-42 {
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  position: relative;
+  padding: 10px 15px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Button-sect42 > img {
+  padding-right: 9px;
+}
+
+.root5 {
+  width: 90%;
+  margin: auto;
+  padding-top: 69px;
+  max-width: 1440px;
+}
+
+.css-gridR6 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: -24px;
+  margin-left: -24px;
+  width: calc(100% + 24px);
+}
+
+.root5-item {
+  flex-basis: 50%;
+}
+
+.css-gridR6 > .root5-item {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.css-Sect5p {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 00.00938em;
+}
+
+.small-text5 {
+  color: #e7332b;
+  font: normal normal 400 24px/130% Arial, Helvetica, sans-serif;
+}
+
+.large-text5 {
+  color: black;
+  font: normal normal 700 40px/130% Arial, Helvetica, sans-serif;
+}
+
+.wire-root5 {
+  display: flex;
+  justify-content: center;
+}
+
+.wire10 {
+  margin-top: -37px;
+  width: 13%;
+}
+
+.css-gridR6 > .stack-item {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.box6 {
+  background: white;
+  border-radius: 41px;
+  box-shadow: 0 11px 22px rgba(231 51 43 0.1);
+  height: 240px;
+  padding: 40px;
+}
+
+.css-Sect5p {
+  margin: 0px;
+  letter-spacing: 00.00938em;
+}
+
+.stacks-title {
+  color: #1b1a20;
+  font: normal normal 700 20px/130% Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+.stacks-bodyParaG {
+  color: #1b1a20;
+  font: normal normal 400 16px/140% Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.grid-stacks {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f";
 }
