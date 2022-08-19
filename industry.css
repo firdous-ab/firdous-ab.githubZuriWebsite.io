@@ -239,6 +239,11 @@ a {
   width: 100%;
 }
 
+.Read-more {
+  text-decoration: underline;
+  color: rgb(36, 166, 36);
+}
+
 .root2 > .root2-item {
   padding-left: 16px;
   padding-top: 16px;
@@ -715,9 +720,10 @@ a {
 .box6 {
   background: white;
   border-radius: 41px;
-  box-shadow: 0 11px 22px rgba(231 51 43 0.1);
-  height: 240px;
+  box-shadow: 0 11px 22px #e7332b1a;
   padding: 40px;
+  /* box-shadow: 0 11px 22px rgb(231 51 43 / 10%); */
+  /* height: 240px; */
 }
 
 .css-Sect5p {
@@ -744,4 +750,24 @@ a {
   grid-template-areas:
     "a b c"
     "d e f";
+}
+
+.enrollbtn-cont {
+  width: 31%;
+  margin: auto;
+  display: flex;
+}
+
+.enroll-btn3 {
+  background-color: #e7332b;
+  border-radius: 71px;
+  box-shadow: none;
+  color: white;
+  padding: 10px 32px;
+  text-transform: none;
+  text-decoration: none;
+  font: normal normal 400 18px/24px "Graphik", Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: 50px 120px;
+  justify-content: center;
 }
