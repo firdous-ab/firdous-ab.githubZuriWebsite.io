@@ -1,6 +1,6 @@
-const click = document.getElementsByClassName("faq-row");
-const displayText = document.getElementsByClassName("faq-answer");
+const click = document.querySelectorAll(".faq-row");
+const displayText = document.querySelectorAll(".faq-answer");
 
-click.addEventListener("click", (e) => {
+click[i].addEventListener("click", (e) => {
   displayText.style.visibility = "visible";
 });
