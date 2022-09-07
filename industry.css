@@ -525,6 +525,12 @@ a {
     "d e f";
 }
 
+@media (max-width: 768px) {
+  .grid-container {
+    display: flex;
+  }
+}
+
 .section-4 {
   background-color: rgb(231, 51, 43);
   margin-top: 149px;
@@ -752,6 +758,13 @@ a {
     "d e f";
 }
 
+@media (max-width: 768px) {
+  .grid-stacks {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .enrollbtn-cont {
   width: 31%;
   margin: auto;
@@ -770,4 +783,46 @@ a {
   width: 90%;
   margin: 50px 120px;
   justify-content: center;
+}
+
+.root6-wire {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.section5-para-small {
+  margin: 0;
+  text-align: center;
+  color: #e7332b;
+  font: normal normal 400 18px/130% "Graphik", Arial, Helvetica, sans-serif;
+}
+
+.section5-para-large {
+  margin: 0;
+  text-align: center;
+  color: #1b1a20;
+  font: normal normal 700 24px/130% "Graphik", Arial, Helvetica, sans-serif;
+}
+
+.faq-wrapper {
+  width: 90%;
+  margin: auto;
+}
+.faq-box {
+  margin-top: 40px;
+}
+
+.faq-row {
+  font: normal normal 500 16px/130% "Graphik", Arial, Helvetica, sans-serif;
+  padding: 10px 15px;
+  border: 1px solid rgb(48, 10, 111);
+  cursor: pointer;
+}
+
+.faq-answer {
+  visibility: hidden;
+}
+
+.plus {
+  cursor: pointer;
 }

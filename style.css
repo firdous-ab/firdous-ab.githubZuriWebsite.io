@@ -34,16 +34,13 @@ body {
 }
 
 .hero h2 {
-  font-size: 28px;
-  line-height: 34px;
+  font: normal normal 800 28px/34px "Graphik", Arial, Helvetica, sans-serif;
   text-align: center;
-  font-weight: 800;
   margin-bottom: 36px;
 }
 
 .hero p {
-  font-size: 16px;
-  line-height: 24px;
+  font: normal normal 400 16px/24px "Graphik", Arial, Helvetica, sans-serif;
   color: #514949;
   opacity: 0.9;
 }
