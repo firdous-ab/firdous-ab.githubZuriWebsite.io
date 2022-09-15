@@ -10,8 +10,8 @@ const links = document.getElementsByClassName("header-links");
 let l;
 for (l = 0; l < links.length; l++) {
   links[l].addEventListener("click", () => {
-    console.log("hello, I'm active", links);
-    // links[l].classList.add("is-active");
+    console.log("Hello, I'm active");
+    // links.classList.toggle("is-active");
   });
 }
 

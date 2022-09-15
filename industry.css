@@ -395,7 +395,7 @@ a {
 }
 
 .box-01:hover {
-  transform: translateY(-17px);
+  transform: translateY(-20px);
   transition-duration: 0.5s;
 }
 
@@ -445,7 +445,7 @@ a {
 }
 
 .box-02:hover {
-  transform: translateY(-17px);
+  transform: translateY(-20px);
   transition-duration: 0.5s;
 }
 
@@ -728,18 +728,18 @@ a {
 
 .css-Sect5p {
   margin: 0px;
-  font-family: "Graphik", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   letter-spacing: 00.00938em;
 }
 
 .small-text5 {
   color: #e7332b;
-  font: normal normal 400 24px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 400 24px/130% "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .large-text5 {
   color: black;
-  font: normal normal 700 40px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 700 40px/130% "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .wire-root5 {
@@ -774,13 +774,13 @@ a {
 
 .stacks-title {
   color: #1b1a20;
-  font: normal normal 700 20px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 700 20px/130% "Roboto", Arial, Helvetica, sans-serif;
   padding-bottom: 20px;
 }
 
 .stacks-bodyParaG {
   color: #1b1a20;
-  font: normal normal 400 16px/140% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 400 16px/140% "Roboto", Arial, Helvetica, sans-serif;
   letter-spacing: 0.01em;
   padding-bottom: 30px;
   padding-top: 40px;
@@ -814,7 +814,7 @@ a {
   padding: 10px 32px;
   text-transform: none;
   text-decoration: none;
-  font: normal normal 400 18px/24px "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 400 18px/24px "Roboto", Arial, Helvetica, sans-serif;
   width: 90%;
   margin: 50px 120px;
   justify-content: center;
@@ -829,14 +829,14 @@ a {
   margin: 0;
   text-align: center;
   color: #e7332b;
-  font: normal normal 400 18px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 400 18px/130% "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .section5-para-large {
   margin: 0;
   text-align: center;
   color: #1b1a20;
-  font: normal normal 700 24px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 700 24px/130% "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .faq-box {
@@ -845,7 +845,7 @@ a {
 }
 
 .faq-wrapper {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   border: 1px solid rgba(71, 44, 111, 0.43);
 }
@@ -901,7 +901,7 @@ a {
   margin-top: 10px;
   text-align: center;
   color: #1b1a20;
-  font: normal normal 200 18px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 200 18px/130% "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .twitter-link {
@@ -909,7 +909,7 @@ a {
   margin: 0px 15px;
   background-color: #e7332b;
   color: white;
-  font: normal normal 400 16px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 400 16px/130% "Roboto", Arial, Helvetica, sans-serif;
   border-radius: 25px;
   padding: 10px 30px;
 }
@@ -936,7 +936,7 @@ a {
   color: #e7332b;
   text-align: center;
   margin-top: -20px;
-  font: normal normal 400 24px/130% "Graphik", Arial, Helvetica, sans-serif;
+  font: normal normal 400 24px/130% "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .pro-structure {
