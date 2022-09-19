@@ -7,7 +7,6 @@ for (i = 0; i < faq.length; i++) {
     let panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
-      console.log(panel.style.maxHeight);
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     }

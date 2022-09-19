@@ -561,12 +561,6 @@ a {
     "d e f";
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-    display: flex;
-  }
-}
-
 .section-4 {
   background-color: rgb(231, 51, 43);
   margin-top: 149px;

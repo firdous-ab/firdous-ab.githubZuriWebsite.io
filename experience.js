@@ -3,21 +3,34 @@ const popup = document.getElementById("popup-wrapper");
 
 const JoinPoolButton = document.getElementsByClassName("Join-button");
 const popup2 = document.getElementById("popup2-wrapper");
-
-const links = document.getElementsByClassName("header-links");
+const navContainer = document.getElementById("link-list");
+const links = navContainer.getElementsByClassName("header-text");
+const navlinks = document.querySelectorAll(".header-text");
+const section = document.querySelectorAll("section");
 
 // ACTIVE LINKS
-let l;
-for (l = 0; l < links.length; l++) {
-  links[l].addEventListener("click", () => {
-    console.log("Hello, I'm active");
-    // links.classList.toggle("is-active");
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active");
+    // If there's no active class
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active", "");
+    }
+    // Add the active class to the current/clicked button
+    this.className += " active";
   });
 }
 
+// FOR THE SCROLL BEHAVIOUR
+window.addEventListener("scroll", function () {
+  let index = section.length;
+  while (--index && window.scrollY + 50 < section[index].offsetTop) {}
+  navlinks.forEach((link) => link.classList.remove("active"));
+  navlinks[index].classList.add("active");
+});
+
 // FIRST POPUP
-let i;
-for (i = 0; i < hiremeButton.length; i++) {
+for (let i = 0; i < hiremeButton.length; i++) {
   hiremeButton[i].addEventListener("click", () => {
     popup.style.display = "block";
   });
@@ -29,8 +42,7 @@ for (i = 0; i < hiremeButton.length; i++) {
 }
 
 // SECOND POPUP
-let j;
-for (j = 0; j < JoinPoolButton.length; j++) {
+for (let j = 0; j < JoinPoolButton.length; j++) {
   JoinPoolButton[j].addEventListener("click", () => {
     popup2.style.display = "block";
   });
