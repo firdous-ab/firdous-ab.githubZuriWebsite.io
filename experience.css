@@ -72,8 +72,13 @@ a {
   color: #1b1a20;
   margin-right: 48px;
   text-transform: none;
-  font: normal normal 400 16px/140% Roboto, Arial, Helvetica, sans-serif;
-  letter-spacing: 0.01em;
+  font: normal normal 100 18px/140% "Roboto", Arial, Helvetica, sans-serif;
+  letter-spacing: 0em;
+  padding: 23px 7px;
+}
+
+.header-text:hover {
+  background-color: rgba(170, 218, 246, 0.1);
 }
 
 .css-links {
@@ -90,7 +95,7 @@ a {
   border-radius: 0;
   justify-content: center;
   line-height: 0px;
-  padding: 0;
+  padding-bottom: 16px;
 }
 
 .btn-cont {

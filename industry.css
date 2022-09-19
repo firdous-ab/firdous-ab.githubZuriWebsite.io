@@ -85,6 +85,7 @@ a {
   padding: 6px 8px;
   border-radius: 4px;
 }
+
 .header-btn {
   display: flex;
   text-decoration: none;
@@ -1208,3 +1209,6 @@ a {
 .footer-foot a {
   text-decoration: none;
 }
+
+/* MEDIA QUERIES */
+/* For the header */
